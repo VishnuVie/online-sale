@@ -1,0 +1,39 @@
+
+.slide
+{
+    height: 625px;
+    width: 100%;
+}
+body
+{
+    background-color: black
+}
+.On-Demand
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.card-image
+{
+    margin: 0px;
+    height: 200px;
+}
+/* .navbar-brand,
+.nav-item,
+.dropdown-menu,
+.form-control, */
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+    
+}
+.nav-link:hover{
+color: red !important;
+}
+@media (max-width: 400px) {
+    #abc{
+        display: none;
+    }
+    
+}

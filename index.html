@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Vie Mart</title>
+
+</head>
+<body>
+    
+          <!-- <NavBar  -->
+            <div class="row w-100">
+              <div class="col">
+            <nav class=" navbar navbar-expand-lg bg-warning fixed-top ">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-primary fw-bold" href="#">Vie Malt</a>
+                  
+                  <div class="coloumn">
+                    <div class="row d-flex w-100">
+                       <form class="d-flex" role="search">
+                    <input id="abc" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#On-Demand">On Demand</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Orders">Order Now</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Filter by
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Price</a></li>
+                          <li><a class="dropdown-item" href="#">Brand</a></li>
+                          <li><a class="dropdown-item" href="#">Ratings</a></li>
+                          <li><a class="dropdown-item" href="#">Offers</a></li>
+                          <li><a class="dropdown-item" href="#">Men's Fvorite</a></li>
+                          <li><a class="dropdown-item" href="#">Women's Favorite</a></li>
+                          <li><a class="dropdown-item" href="#">Zero Alchahol</a></li>
+                          <li><a class="dropdown-item" href="#">wines</a></li>
+                          <li><a class="dropdown-item" href="#">Beers</a></li>
+                          <li><a class="dropdown-item" href="#">soft Drinks</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">customize</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                       <a class="nav-link active fw-bold" href="#location">Locate Us</a>
+                      </li>
+                      <!-- <h6 style=" color: red; margin-left: 10px;">Statutory warning : Consumption of Alchahol is "INJURIOUS TO HEALTH"</h6> -->
+                      </ul>
+                    </div>
+                    </div>
+              </nav>
+            </div>
+          </div>
+           
+                                             <!--carousal-->
+          <div class="coloumn w-100">
+                                              <div class="row">
+                                             </div>
+                                             <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                                                <div class="carousel-indicators">
+                                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                </div>
+                                                <div class="carousel-inner">
+                                                  <div class="carousel-item active" data-bs-interval="10000">
+                                                    <img src="images/beer+burger.jpg" class="slide d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                      <h5 style=" font-family: fantasy; font-size: 50px;color: rgb(114, 6, 6)" >Beer and Burger</h5>
+                                                      <p style=" background-color: rgb(240, 167, 11); font-family: fantasy; font-size: 50px;color: rgb(114, 6, 6)" >Grab a burger and get one beer free...!! </p>
+                                                    </div>  
+                                                   
+                                                  </div>
+                                                  <div class="carousel-item" data-bs-interval="2000">
+                                                    <img src="images/beer.jpg" class=" slide d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                      <h5 style=" font-family: fantasy; border-radius: 25px; background-color: black; font-size: 50px;color: rgb(14, 225, 253)">Top Brand Beers</h5>
+                                                      <p style=" font-family: fantasy; border-radius: 25px; background-color: black; font-size: 50px;color: rgb(14, 225, 253)">Up to 50%off.</p>
+                                                    </div>
+                                                  </div>
+                                                  <div class="carousel-item">
+                                                    <img src="images/softdrinks.jpg" class="slide d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                      <h5 style="font-family:cursive; font-weight: bolder; font-size: 50px;color: rgb(35, 235, 16)">Get Soft and Smooth</h5>
+                                                      <p style="background-color:rgb(238, 13, 246); font-weight: bolder; border-radius: 15px; font-size: 40px;color: black ">Grab your favorite soft drinks for your free time....!!</p>
+                                                    </div>
+                                                 
+                                                  </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                  <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                  <span class="visually-hidden">Next</span>
+                                                </button>
+                                              </div>
+          </div>
+                                            
+                                   
+                                             <!--order section  -->
+     <div class="container-fluid w-100" id="Orders">
+                    <h1 class= "static text-center bg-warning fw-bolder">Order your Drink Here</h1>
+                       <div class="my-5 row">
+                             <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                              <div  class="card text-center border-5 " style="width: 18rem; height:790px;">
+                                <img src="images/jd.jpg" class="card-img-top" alt="JD image">
+                                <div class="card-body" style=" background-color: bisque; border-width:medium;">
+                                  <h5 class="card-title"> Jack Daniel's Tennessee Whiskey 750ml</h5>
+                                  <p class="card-text">Jack Daniel’s is a renowned brand of Tennessee whiskey. It is meticulously crafted in Lynchburg, Tennessee, at the Jack Daniel Distillery, which has been under the ownership of the Brown–Forman Corporation since 1951:</p>
+                                  <h5 class="card-title text-danger">Price: $68.5</h5> 
+                                  <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                                </div>
+                              </div>
+                             </div>
+                             <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                              <div class="card text-center border-5" style="width: 18rem;height: 790px;">
+                                <img src="images/blanton's gold whiskey.jpg" class="card-img-top" alt="JD image">
+                                <div class="card-body" style="border-width: medium; background-color: bisque;">
+                                  <h5 class="card-title"> Blanton's Gold Whiskey 750ml</h5>
+                                  <p class="card-text">The world’s first single barrel bourbon was created in 1984 by Elmer T. Lee. Named after former distillery president Colonel Albert B. Blanton. Elmer recalled how Colonel Blanton would sometimes handpick a ‘honey barrel’ from the center of Warehouse H to enjoy with others.</p>
+                                  <h5 class="card-title text-danger">Price: $225.5</h5> 
+                                  <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                                </div>
+                              </div>
+                             </div>
+                             <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                              <div class="card text-center" style="width: 18rem; height: 790px;">
+                                <img src="images/Clynelish-2004-2021-MASAM-Whisky-Alement-640x640.jpg" class="card-img-top" alt="RUM image">
+                                <div class="card-body" style="border-width: medium;background-color: bisque;">
+                                  <h5 class="card-title"> CLYNELISH 2004 BOTTLED 2021 SINGLE MALT SCOTCH WHISKY – MASAM (700ML)</h5>
+                                  <p class="card-text">Built in 1967 adjacent to the first operational Clynelish distillery which was built in 1819. In the 1960’s most of the Clynelish spirit was finding its way into blends so to meet demand they required a much larger facility. The two distilleries ran side by side and were known as Clynelish A and Clynelish B but after about a year the original distillery was closed.</p>
+                                  <h5 class="card-title text-danger">Price: $400.56</h5> 
+                                  <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                                </div>
+                              </div>
+                             </div>
+                             
+
+                        <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                          <div class="card text-center" style="width: 18rem;height: 790px;">
+                            <img style="height: 400px;" src="images/jameson og.jpg" class="card-img-top" alt="JD image">
+                            <div class="card-body" style="border-width: medium; background-color: bisque;">
+                              <h5 class="card-title"> Jmaeson the irish whiskey 750ml</h5>
+                              <p class="card-text">Jameson Irish Whiskey is a renowned blended Irish whiskey produced by the Irish Distillers, a subsidiary of Pernod Ricard. Originally crafted at the Jameson Distillery Bow St. in Dublin, it is now meticulously distilled at the New Midleton Distillery in County Cock 1.</p>
+                              <h5 class="card-title text-danger">Price: $540</h5> 
+                              <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                          <div class="card text-center" style="width: 18rem;height: 790px;">
+                            <img height="400px;" src="images/calsberg.jpg" class="card-img-top" alt="JD image">
+                            <div class="card-body" style="border-width: medium; background-color: bisque;">
+                              <h5 class="card-title"> calsberg beer 750ml</h5>
+                              <p class="card-text">Aim to celebrate the positive aspects of moderate beer consumption and to position beer as a relevant and responsible choice with a role to play in the “good life” to which modern consumers aspire. However, irresponsible drinking does take place, and we are committed to combating it. So we are reknowned as smoothest eer ever. </p>
+                              <h5 class="card-title text-danger">Price: $68.5</h5> 
+                              <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class=" col-xl-4 col-md-6 col-sm-12 mb-2 d-flex flex-row justify-content-center">
+                          <div class="card text-center" style="width: 18rem;height: 790pxpx;">
+                            <img height="400px" src="images/cocacola.jpeg" class="card-img-top" alt="JD image">
+                            <div class="card-body" style="border-width: medium; background-color: bisque;">
+                              <h5 class="card-title"> Coca-cola 750ml</h5>
+                              <p class="card-text">Coca-Cola, or Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. In 2013, Coke products were sold in over 200 countries worldwide, with consumers drinking more than 1.8 billion company beverage servings each day.[1] Coca-Cola ranked No. 87.</p>
+                              <h5 class="card-title text-danger">Price: $68.5</h5> 
+                              <a href="#" class="btn btn-primary">Order Now</a> <a href="#" class="btn btn-primary"> Add to Cart</a>
+                            </div>
+                          </div>
+                        </div>  
+                       </div>
+                   </div>
+                   <Button style="margin-left: 25%;" class="btn  my-5 btn-primary  w-50"> Show More</Button>
+                 
+                   <!-- on demand -->
+                   
+                   <h1 class=" static text-center bg-warning fw-bolder my-5 ">On Demand </h1>
+                   <div class="On-Demand" id="On-Demand"> 
+
+
+                    <div class="row justify-content-center">
+                   <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Whiskey Treat</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Primary card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  
+
+
+                  
+                  
+                  <div class="col-md-6 card text-bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header"> RUM Lovers </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Secondary card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                
+
+
+                  <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">+Drink Beer Start a Day+</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Success card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Get Soft</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Danger card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Discount 50%</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Warning card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                                    <!-----------------  Footer ------------------>
+
+                <div class=" container-fluid col-12" id="location">
+                  <div class="row bg-warning">
+                    <h1 class="text-center">Locate us</h1>
+                    <div class=" col">
+                    <div class= "  info">
+                      <p>About us</p>
+                      <p>Join Our Team</p>
+                      <p>our Partners</p>
+                      <p>Certifications</p>
+                      
+                    </div>
+                    </div>
+                    
+                    <div class="text-end col">
+                     <h1>Vie Malt</h1>
+                     <h6 style="font-weight: bold;"> Vie Towers</h5>
+                     <h6 style="font-weight: bold;"> Padamugal Junction</h6>
+                     <h6 style="font-weight: bold;" > Kakkanad </h6>
+                     <h6 style="font-weight: bold;"> Ernakulam</h6>
+                      <h6 style="font-weight:bold;">Email:VieMal@gmail.com</h6>
+                    </div>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.55832720463!2d76.30948095113635!3d10.008813464705796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1703143443155!5m2!1sen!2sin"
+                      width="100%" height="150px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  
+                </div>
+                </div>                  
+              
+                    
+      <!-- Bootstrap.js -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+      <script src="/js/bootstrap.js"> </script>
+  
+</body>
+</html>
